@@ -6,7 +6,7 @@ const jsondb = {
       kategorie: "Hauptgericht",
       preis: 6.99,
       url: "burger",
-      bild: "/images/produkte/burger.jpg",
+      bild: "/images/produkte/burger.jpg"
     },
     {
       name: "Coca Cola",
@@ -14,7 +14,7 @@ const jsondb = {
       kategorie: "Trinken",
       preis: 1.99,
       url: "cola",
-      bild: "/images/produkte/cola.jpg",
+      bild: "/images/produkte/cola.jpg"
     },
     {
       name: "Erdbeer Eis",
@@ -22,7 +22,7 @@ const jsondb = {
       kategorie: "Nachspeise",
       preis: 2.99,
       url: "erdbeereis",
-      bild: "/images/produkte/eis.jpg",
+      bild: "/images/produkte/eis.jpg"
     },
     {
       name: "Falaffel",
@@ -30,7 +30,7 @@ const jsondb = {
       kategorie: "Hauptgericht",
       preis: 6.99,
       url: "falaffel",
-      bild: "/images/produkte/falaffel.jpg",
+      bild: "/images/produkte/falaffel.jpg"
     },
     {
       name: "Lahmacun",
@@ -38,7 +38,7 @@ const jsondb = {
       kategorie: "Hauptgericht",
       preis: 4.5,
       url: "lahmacun",
-      bild: "/images/produkte/lahmacun.jpg",
+      bild: "/images/produkte/lahmacun.jpg"
     },
     {
       name: "Lasagne",
@@ -46,7 +46,7 @@ const jsondb = {
       kategorie: "Hauptgericht",
       preis: 8.5,
       url: "lasagne",
-      bild: "/images/produkte/lasagne.jpg",
+      bild: "/images/produkte/lasagne.jpg"
     },
     {
       name: "Schokoladen Muffin",
@@ -54,7 +54,7 @@ const jsondb = {
       kategorie: "Nachspeise",
       preis: 3.2,
       url: "muffin",
-      bild: "/images/produkte/muffin.jpg",
+      bild: "/images/produkte/muffin.jpg"
     },
     {
       name: "Pizza Original",
@@ -62,7 +62,7 @@ const jsondb = {
       kategorie: "Hauptgericht",
       preis: 7.5,
       url: "pizza",
-      bild: "/images/produkte/pizza.jpg",
+      bild: "/images/produkte/pizza.jpg"
     },
     {
       name: "Süßkartoffel Pommes",
@@ -70,7 +70,7 @@ const jsondb = {
       kategorie: "Hauptgericht",
       preis: 4.8,
       url: "pommmes",
-      bild: "/images/produkte/pommes.jpg",
+      bild: "/images/produkte/pommes.jpg"
     },
   ],
 };

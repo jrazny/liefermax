@@ -30,7 +30,7 @@ async function dbConnect () {
 }
 
 async function dbDisconnect() {
-    await mongoose.disconnect()
+    await mongoose.disconnect();
     console.log('DB Verbindung beendet')
 }
 
