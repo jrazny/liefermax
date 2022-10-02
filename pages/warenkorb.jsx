@@ -1,8 +1,13 @@
-import { Table, CloseButton, Button, Card } from "react-bootstrap"
-import Image from "next/image"
-import CardHeader from "react-bootstrap/esm/CardHeader";
+import { Table, CloseButton, Button, Card } from "react-bootstrap";
+import Image from "next/image";
+//import CardHeader from "react-bootstrap/esm/CardHeader";
+import { useDispatch, useSelector } from "react-redux";
+import Link from "next/link";
 
 export default function Warenkorb() {
+    const dispatch = useDispatch();
+    const warenkorb = useSelector((state) => state.warenkorb); 
+
     return (
       <div>
         <h1>Warenkorb</h1>
@@ -20,26 +25,24 @@ export default function Warenkorb() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+                {warenkorb.produkte.map((produkt) => (
+                <tr key={produkt._id}>
                   <td>
-                    <Image src={'/images/produkte/cola.jpg'} alt="Cola" width={50} height={50} />
+                    <Image src={produkt.bild} alt={produkt.name} width={50} height={50} />
                   </td>
-                  <td>Cola</td>
+                  <td>
+                    <Link href={`/produkte/${produkt.url}`}>
+                      <a className="text-danger">
+                        {produkt.name}
+                      </a>
+                    </Link>
+                  </td>
                   <td>doppelt</td>
-                  <td>1</td>
-                  <td>1,99</td>
+                  <td>{produkt.menge}</td>
+                  <td>{(produkt.preis*produkt.menge).toFixed(2)}</td>
                   <td><Button className="btn-sm">x</Button></td>
                 </tr>
-                <tr>
-                  <td>
-                    <Image src={'/images/produkte/pommes.jpg'} alt="Pommes" width={50} height={50} />
-                  </td>
-                  <td>Pommes</td>
-                  <td>doppelt</td>
-                  <td>1</td>
-                  <td>3,50</td>
-                  <td><Button className="btn-sm">x</Button></td>
-                </tr>
+                ))}
               </tbody>
             </Table>
           </div>
