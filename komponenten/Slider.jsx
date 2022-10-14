@@ -6,13 +6,31 @@ export default function Slider() {
     <div>
       <Carousel controls={false} fade={true}>
         <CarouselItem>
-            <Image className='d-block w-100 rounded-3' src='/images/essen/burger.jpg' alt='burger' width={3000} height={1000} />
+            <Image 
+              className='d-block w-100 rounded-3' 
+              src='/images/essen/burger.jpg' 
+              alt='burger' 
+              width={3000} 
+              height={1000} 
+            />
         </CarouselItem>
         <CarouselItem>
-            <Image className='d-block w-100 rounded-3' src='/images/essen/pizza.jpg' alt='pizza' width={3000} height={1000} />
+            <Image 
+              className='d-block w-100 rounded-3' 
+              src='/images/essen/pizza.jpg' 
+              alt='pizza' 
+              width={3000} 
+              height={1000} 
+            />
         </CarouselItem>
         <CarouselItem>
-            <Image className='d-block w-100 rounded-3' src='/images/essen/burrito.jpg' alt='burrito' width={3000} height={1000} />
+            <Image 
+              className='d-block w-100 rounded-3' 
+              src='/images/essen/burrito.jpg' 
+              alt='burrito' 
+              width={3000} 
+              height={1000} 
+            />
         </CarouselItem>
       </Carousel>
     </div>

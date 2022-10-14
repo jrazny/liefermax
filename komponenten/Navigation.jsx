@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import {Badge} from 'react-bootstrap';
-import { useSelector } from 'react-redux';
+import Link from 'next/link'
+import Image from 'next/image'
+import { Badge } from 'react-bootstrap'
+import { useSelector } from 'react-redux'
 
 
 export default function Navigation() {
@@ -23,6 +23,6 @@ export default function Navigation() {
             </Link>
         </div>
       </div>
-    );
+    )
   }
   
