@@ -1,7 +1,6 @@
-//import { useRouter } from "next/router";
 //import jsondb from "../../jsondb/produkte";
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import { ListGroup, Button, ListGroupItem } from "react-bootstrap";
 import mongodb from "../../utils/mongodb";
 import Produkt from "../../models/Produkt";

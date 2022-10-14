@@ -1,6 +1,6 @@
 import { Table, CloseButton, Button, Card } from "react-bootstrap"
 import Image from "next/image"
-//import CardHeader from "react-bootstrap/esm/CardHeader"
+// import CardHeader from "react-bootstrap/esm/CardHeader"
 import { useDispatch, useSelector } from "react-redux"
 import Link from "next/link"
 //import { loescheProdukt } from "../redux/warenkorbSlice"
