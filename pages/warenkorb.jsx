@@ -1,6 +1,6 @@
 import { Table, CloseButton, Button, Card } from "react-bootstrap"
 import Image from "next/image"
-// import CardHeader from "react-bootstrap/esm/CardHeader"
+import CardHeader from "react-bootstrap/esm/CardHeader"
 import { useDispatch, useSelector } from "react-redux"
 import Link from "next/link"
 //import { loescheProdukt } from "../redux/warenkorbSlice"
@@ -58,7 +58,7 @@ export default function Warenkorb() {
           <div className="col-3 p-2">
             <div className="shadow">
               <Card>
-                <Card.Header as="h5">Gesamt</Card.Header>
+                <CardHeader as="h5">Gesamt</CardHeader>
                 <Card.Body className="text-center">
                   <Card.Title>
                     6,95 EUR
